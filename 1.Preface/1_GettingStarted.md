@@ -3,3 +3,11 @@
 스프링 시큐리티는 Java EE enterprise 소프트웨어 어플리케이션을 위한 전체적인 보안 솔루션을 제공합니다. 당신이 이 레퍼런스 가이드를 읽으며 스프링 시큐리티에 대해 알아가는 만큼, 스프링 시큐리티 역시 당신에게 더 큰 유용성과 유연함(Configurable)을 선사할 것입니다. 
 
 보안은 영원한 숙제입니다. 그리고 시스템 전반적인 접근과 통합적인 해결책을 추구하는 것이 중요합니다. 보안 업계에서는 "layers of security" 의 도입을 권장합니다. "layers of security"란 각각의 레이어들이 일단 그들 기능에 맞는 최대한의 보안성을 확보하고, 또 추가적으로 보안을 제공하는 레이어를 갖추는 것입니다. 개별 레이어의 보안성이 철저해질 수록 당신의 어플리케이션은 더욱 탄탄하고 안전해질 것입니다. 일단 가장 먼저 당신은 MITM(man-in-the-middle attacks,*역주:예컨대 인증 토큰을 중간에서 가로채 정보를 취득하는 공격) 가능성을 줄일 수 있도록 transport security 나 System Identification 과 같은 문제를 다루어야 합니다. 그 다음엔 권한이 있는 시스템들만 연결할 수 있도록  방화벽이나 VPN, IP 보안들을 활용하게 될 것입니다. 협업 환경이라면 일반 사용자들이 접근하는 웹 서버를 뒷단의 데이터베이스 서버나 어플리케이션 서버와 분리하여 DMZ존에 Deploy 할 수도 있습니다.
+
+Installation
+------------
+
+Include the `bootstrap-social.css` or `bootstrap-social.less` in your project, or
+install it through [Bower](http://bower.io/):
+
+    bower install bootstrap-social
